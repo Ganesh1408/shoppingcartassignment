@@ -44,7 +44,7 @@ function ShoppingCart() {
   </ProductsListContainer>
       <CartSummary  totalPrice ={totalPrice}/>
       <CartItems cartItems={cartItems} setCartItems={setCartItems}/>
-      {totalPrice === 1000 && <FreeItem cartItems={cartItems}/>}
+      {totalPrice >= 1000 && <FreeItem cartItems={cartItems}/>}
     </ShoppingCartContainer>
     </>
   )
