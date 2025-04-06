@@ -18,6 +18,12 @@ export const CartSummaryHeading =styled.div`
     position:relative;
     left:290px;
     margin-top:40px;
+    @media screen and (max-width:768px){
+        font-size:20px;
+        left:0px;
+        margin-top:20px;
+
+    }
 
 `
 export const CartSummaryContainer = styled.div`
@@ -27,13 +33,21 @@ export const CartSummaryContainer = styled.div`
     box-shadow:0px 2px 4px  rgba(0, 0, 0, 0.2);
     border-radius:10px;
     
+    height:140px;
+    width:870px;
+    border-radius:6px;
+    @media screen and (max-width:768px){
+        width:80%;
+        margin:0px auto;
+        padding:0px;
+        margin:20px;
+        
+    }
+    
 
 `
 export const CartSummaryDiv = styled.div`
     
-    height:140px;
-    width:870px;
-    border-radius:6px;
 
 `
 export const CartSummaryHeadings = styled.div `
@@ -54,11 +68,18 @@ export const ProgressContainer = styled.div`
     border-radius:8px;
     height:80px;
     margin:16px 0px;
+    @media screen and (max-width:768px){
+        
+        width:90%;
+        margin:12px auto;
+        padding:0px;
+
+    }
 
 
 `
 export const ProgressDescription = styled.p`
-    font-size:14px;
+    font-size:12px;
     color:black;
     padding:20px;
     padding-bottom:0px;
@@ -71,5 +92,9 @@ export const ProgressBar = styled.progress`
     width:97%;
     height:25px;
     margin:0px auto;
+    @media screen and (max-width:768px){
+        width:90%;
+        
+    }
 ` 
 

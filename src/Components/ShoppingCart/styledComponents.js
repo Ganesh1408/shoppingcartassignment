@@ -42,6 +42,10 @@ export const Product = styled.h2`
     position:relative;
     left:300px;
     padding:16px;
+    @media screen and (max-width:768px){
+        font-size:20px;
+        left:0px;
+    }
 
 `
 export const ProductsListContainer = styled.ul`
